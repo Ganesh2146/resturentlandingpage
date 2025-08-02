@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Singles Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div class="logo">The Singles Hub</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About Us</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#Reservation">Reservation</a></li>
+        <li><a href="#Location">Location</a></li>
+        <li><a href="#Blog">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Savor the Art of Fine Dining</h1>
+        <p>An exquisite culinary journey awaits you.</p>
+        <a href="#Menu" class="btn">View our offerings</a>
+      </div>
+    </section>
+
+    <section id="About" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Welcome to The Singles Hub – a place where culinary dreams come to life. We bring together tradition, taste, and a touch of elegance in every dish. Our team of chefs and staff is committed to offering you a warm and delightful dining experience.</p>
+      </div>
+    </section>
+
+   <section id="menu" class="menu">
+  <h2>Our Menu</h2>
+
+  <div class="filters">
+    <button class="filter-btn">All</button>
+    <button class="filter-btn">Starters</button>
+    <button class="filter-btn">Main Course</button>
+    <button class="filter-btn">Desserts</button>
+  </div>
+
+  <div class="menu-items">
+    <div class="menu-item">
+      <img src="images/pizza.png" alt="Pizza">
+      <h3>Classic Margherita</h3>
+      <p>Fresh tomatoes, mozzarella, and basil on a crisp crust.</p>
+      <p><strong>₹249</strong></p>
+    </div>
+
+    <div class="menu-item">
+      <img src="images/burger.png" alt="Burger">
+      <h3>Grilled Chicken Burger</h3>
+      <p>Juicy grilled chicken patty with fresh veggies & sauce.</p>
+      <p><strong>₹199</strong></p>
+    </div>
+
+    <div class="menu-item">
+      <img src="images/pasta.png" alt="Pasta">
+      <h3>Italian Alfredo Pasta</h3>
+      <p>Creamy white sauce pasta with herbs and cheese.</p>
+      <p><strong>₹279</strong></p>
+    </div>
+
+    <div class="menu-item">
+      <img src="images/dessert.png" alt="Dessert">
+      <h3>Chocolate Lava Cake</h3>
+      <p>Warm chocolate cake with gooey center served with ice cream.</p>
+      <p><strong>₹149</strong></p>
+    </div>
+  </div>
+</section>
+
+
+    <section id="Gallery" class="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <img src="images/food.png" alt="Food">
+          <img src="images/interior.png" alt="Interior">
+          <img src="images/dinner.png" alt="Dinner">
+        </div>
+      </div>
+    </section>
+
+    <section id="Reservation" class="reservation">
+      <div class="container">
+        <h2>Reserve a Table</h2>
+        <form class="reservation-form">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="datetime-local" required />
+          <textarea placeholder="Special Requests"></textarea>
+          <button type="button" class="btn" onclick="submitForm()">Book Now</button>
+        </form>
+      </div>
+    </section>
+    
+    <section id="blog" class="blog">
+  <h2>Latest from Blog</h2>
+  <div class="blog-grid">
+    <div class="blog-card">
+      <img src="images/healthy eating .png" alt="Healthy Eating">
+      <h3>5 Tips for a Healthy Diet</h3>
+      <p>Discover how to maintain a balanced diet with these simple yet powerful tips straight from our chefs.</p>
+    </div>
+
+    <div class="blog-card">
+      <img src="images/coffe cul.png" alt="Coffee Culture">
+      <h3>The Rise of Coffee Culture</h3>
+      <p>Explore how coffee became more than just a drink — it’s a lifestyle, a trend, and a culture.</p>
+    </div>
+
+    <div class="blog-card">
+      <img src="images/restarnt trend.png" alt="Restaurant Trends">
+      <h3>Top 5 Restaurant Trends in 2025</h3>
+      <p>From tech-powered menus to sustainable ingredients, see what’s cooking in the restaurant world this year.</p>
+    </div>
+  </div>
+</section>
+
+
+    <section id="Location" class="location">
+      <div class="container">
+        <h2>Visit Us</h2>
+        <iframe src="https://maps.google.com/maps?q=Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-section">
+        <h3>The Singles Hub</h3>
+        <p>Where every meal is a celebration. Committed to quality, taste, and an unforgettable dining experience.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 456 Culinary Lane, Gourmet City</p>
+        <p><i class="fas fa-phone"></i> +1 (234) 567-8900</p>
+        <p><i class="fas fa-envelope"></i> info@singleshub.com</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 The Singles Hub. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
